@@ -24,28 +24,27 @@ To carry out this study, we used 4 datasets:
 # Deliverables 
 We created a dashboard on Tableau that you can find here: https://public.tableau.com/app/profile/maria.policarpo/viz/Project6-Airpollution/Histria1?publish=yes
 
+Visualization:
+- map of the exposure and mortality to PM2.5
+- top 5 of the countries with highest and lowest level of exposure to PM2.5
+- focus on the socio-economic profiles of those countries
+- socio-economic profiles of the European countries 
+- evolution of the number of scientific publications on the air pollution (1999 to 2022)
+
 We also used machine learning (linear regression) to predict the PM2.5 exposure in the upcoming years. 
 
 All the code is in Github’s folders listed below. 
 
 # GitHub folders - Description 
 
-- FinalColabFiles: What is it? Those are the final Google Colaboratory files that reply to our questions. We also did the statistics on these files. 
-
-- Machine Learning: Those are the code for the algorithms, the recommendation system and the input file.
-
-- Exploratory Data Analysis: This is our initial analysis on the different datasets. 
+- Machine learning file: ML_exposure_air.ipynb 
+- dataset of scientific publications from Wikidate: query_wikidata.csv
 
 
 # Pre-processing 
 
 # Cleaning explanation
-We chose to focus on movies so we excluded the other types (related to TV or video games) and also specific genres (Film-Noir, Game-Show, News, Reality-TV, Short, Talk-Show). 
-We cleaned the tables and merged the one we needed to reply to the questions we had.
+LUISA TO ADD
 
-There were too many unknown movies with 10/10 rate, but not with a lot of votes, so we decided to reduce our dataset for only the movies with more than 6000 votes, which represents 5% of the initial dataset.Therefore, we excluded the movies with less number of votes. 
-
-What is considered as a “best movie”? We defined the best movies as the ones that would belong to the list of the 1000 movies better ranked, from the 5% dataset. 
-For the other queries, we decided to use only the 5% of the dataset also to present only the best movies with the best rates. 
-
+Wikidata: the data were clean (no NaNs) and no need to clean much. 
 
