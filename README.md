@@ -44,7 +44,12 @@ All the code is in Github’s folders listed below.
 # Pre-processing 
 
 # Cleaning explanation
-LUISA TO ADD
+For EDA we use PySparkSQL, an Python language, that only works with Immutable dataframe, can run in multiple machines andprocesses operations 100x faster than Pandas.
+We highlight the following key values:
+- Population density, inhabitants per km2- 1 27 276;
+- Real GDP per capita - 34 548;
+- The life expectancy at birth- 77;
+- Mortality from exposure to  PM2.5 Per 1 000 000 inhabitant- 549.
 
 Wikidata: the data were clean (no NaNs) and no need to clean much. 
 
